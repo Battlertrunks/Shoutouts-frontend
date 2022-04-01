@@ -1,0 +1,7 @@
+.Header {
+  padding: 15px;
+}
+
+.Header * {
+  margin-bottom: 15px;
+}

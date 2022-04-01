@@ -1,0 +1,9 @@
+.MainPageRouter .delete-all-btn {
+  margin: 15px 5px;
+}
+
+.MainPageRouter ul {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
