@@ -1,5 +1,5 @@
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
-import { FormEvent, useContext, useEffect, useRef, useState } from "react";
+import { FormEvent, useContext, useRef, useState } from "react";
 // import { useSearchParams } from "react-router-dom";
 import AuthContext from "../context/authContext";
 import { storage } from "../firebaseConfig";

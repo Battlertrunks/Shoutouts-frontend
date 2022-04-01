@@ -36,7 +36,7 @@ const MeRoute = () => {
         {shoutouts.map((shoutout) => (
           <ShoutoutCard
             onShow={shoutout}
-            onDelete={deleteShoutout}
+            onDelete={deleteShoutoutHandler}
             key={shoutout._id}
           />
         ))}

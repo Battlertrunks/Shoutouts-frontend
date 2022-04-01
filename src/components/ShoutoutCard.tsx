@@ -1,6 +1,4 @@
-import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
-import QueryStringParams from "../Models/QueryStringParams";
 import Shoutout from "../Models/Shoutout";
 import "./ShoutoutCard.css";
 
