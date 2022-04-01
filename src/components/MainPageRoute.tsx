@@ -46,7 +46,7 @@ const MainPageRouter = () => {
 
   useEffect(() => {
     getAndSetShoutouts(queryStringParams);
-  }, [to, queryStringParams]);
+  }, [queryStringParams]);
 
   return (
     <div className="MainPageRouter">
